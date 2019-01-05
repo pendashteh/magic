@@ -1,15 +1,15 @@
 # $ magic
-What if you could get a Python3 shell without having it installed?
+What if you could get a `python3` shell without having it installed?
 
 ```
 $ magic python python3
 ```
 
-Or compile your first haskell program without even having haskell!
+Or compile your first `haskell` program without even having haskell!
 ```
 $ echo 'main = printStrLn "Magic Works."' > hello.hs
 $ magic haskell ghc -o hello hello.hs
-Linking hello
+Linking hello ...
 $ ls
 hello hello.hs
 ```
