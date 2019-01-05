@@ -1,4 +1,5 @@
-What if you could do this without having Python3 installed:
+# $ magic
+What if you could get a Python3 shell without having it installed?
 
 ```
 $ magic python python3
