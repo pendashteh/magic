@@ -14,6 +14,17 @@ $ ls
 hello hello.hs
 ```
 
+# USAGE
+
+```
+$ magic APP COMMAND
+```
+
+`APP` is the name of a docker image on Docker Hub. e.g. `gcc`, `composer`, `drush/drush`
+
+`COMMAND` is a shell command. It will be passed to `bash` inside the container.
+(and yes, it only works on containers that have `bash` on them)
+
 # INSTALL
 Make sure you have docker installed. That is the only requirement.
 
